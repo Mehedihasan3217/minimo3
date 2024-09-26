@@ -1,0 +1,241 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* fonts */
+/* common start */
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif; 
+    font-size: 16px;
+    font-weight: 400; 
+    color: #626262; 
+}
+/* common end */
+/* header start */
+header{
+    padding: 35px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 9px;
+    float: left;
+    width:13%;
+}
+.logo a{
+     
+}
+.logo a img{
+    width: 100%;
+}
+nav{
+    float: right;
+    width: 60%;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s ease;
+}
+nav ul li:last-child a{
+    margin-right: 0;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+/* banner start */
+.banner{
+}
+.b_img{
+}
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* perfect start */
+.perfect{
+    padding: 100px 0 30px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.p_content{
+
+}
+.c_light{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 20px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+     margin: 0; 
+    line-height: 24px;
+}
+.p_link{
+    margin-top: 45px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+}
+/* perfect end */
+/* blog strt */
+.blog{
+    padding: 0 0 100px;
+}
+.sb_item{
+    margin-top: 70px;
+    box-sizing: border-box;
+    float: left;
+    width: 47%;
+}
+.sb_item:nth-child(even){
+    margin-left: 6%;
+}
+.sb_img{
+    margin-bottom: 20px;
+}
+.sb_img img{
+    width: 100%;
+}
+/* blog end */
+/* newsletter start */
+.news{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.s_h1{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: #333333;
+}
+.singup{
+    text-align: center;
+}
+.s_form{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    color: #626262;
+    font-size: 14px;
+    border:none;
+    width: 345px;
+    height: 45px;
+    border-bottom: 1px solid #626262;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+/* newslletter end */
+/* blog2 start */
+.blog2{
+    padding: 30px 0 100px;
+}
+.load{
+    text-align: center;
+}
+.load button{
+    margin: 100px 0 0;
+    width: 165px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #626262;
+    font-family: "Playfair Display", serif; 
+    font-size: 20px;
+    font-weight: 400; 
+    color: #626262; 
+    cursor: pointer;
+    transition: .33s linear
+}
+.load button:hover{
+    background-color: #626262;
+    color: #fff; 
+}
+/* blog2 end */
+/* Footer Start */
+footer{
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+.pages{
+    width: 45%;
+    float: left;
+}
+.pages ul{
+    float: left;
+    padding: 0;
+
+}
+.pages ul li{
+    list-style: none;
+    float: left;
+}
+.pages ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color:#000000;
+}
+.pages ul li:first-child a{
+    margin-left: 0;
+}
+.social{
+    width: 45%;
+    float: right;
+}
+.social ul{
+    float: right;
+}
+.social ul li{
+    list-style: none;
+    float: left;
+}
+.social ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social ul li span{
+    color:#000000;
+}
+/* Footer end */
+
+
+
+
